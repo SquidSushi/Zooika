@@ -15,9 +15,9 @@ public class SuikaBall : MonoBehaviour{
             return; //early return, wir brechen die Funktion ab.
         }
 
-        Debug.Log("Ich habe einen Ball berührt!");
+        //Debug.Log("Ich habe einen Ball berührt!");
         if (Level == otherSuika.Level){
-            Debug.Log($"Und wir sind vom selben Level ({Level})");
+            //Debug.Log($"Und wir sind vom selben Level ({Level})");
             Destroy(gameObject);
             if (Next != null){
                 if (gameObject.GetInstanceID() > other.gameObject.GetInstanceID()){

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8476097044897799654}
   - component: {fileID: 4288428203376291760}
   - component: {fileID: 2843401388663231322}
+  - component: {fileID: 312773480407845279}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -97,6 +98,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &312773480407845279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437951722847780781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4cd06d716b17847b5db898dc7b2b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SuikaBall
+  Level: 2
+  Next: {fileID: 437951722847780781, guid: 74ded8dae29300c4db12ddf27beadf67, type: 3}
 --- !u!1 &6507266179852091339
 GameObject:
   m_ObjectHideFlags: 0

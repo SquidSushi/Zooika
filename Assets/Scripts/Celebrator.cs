@@ -12,6 +12,7 @@ public class Celebrator : MonoBehaviour
 
     public void OnMerge(int Level, Vector3 Position){
         Debug.Log("Der Celebrator hat ein Merge-Event wahrgenommen!");
+        Position -= Vector3.forward;
         for (int i = 0; i < Level; i++){
             Instantiate(Confetti, Position, Quaternion.identity);
         }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2843401388663231322}
   - component: {fileID: 312773480407845279}
   m_Layer: 0
-  m_Name: Panda
+  m_Name: Goat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.0700002, y: 3, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2112233413096684778}
   m_Father: {fileID: 0}
@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff4cd06d716b17847b5db898dc7b2b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SuikaBall
-  Level: 4
-  Next: {fileID: 437951722847780781, guid: 5e8c85b49da46b446b129c26baf0f4d2, type: 3}
+  Level: 3
+  Next: {fileID: 437951722847780781, guid: c32fb55aab4813c438f003fe39f84b17, type: 3}
 --- !u!1 &6507266179852091339
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3385415037828575978, guid: 7457ae6a2d8dcff47b7a2057ef6d4410, type: 3}
+  m_Sprite: {fileID: -6989495785908772370, guid: 7c6756931e30eda48bc50479e9b002dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

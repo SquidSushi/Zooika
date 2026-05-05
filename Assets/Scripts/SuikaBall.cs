@@ -4,6 +4,7 @@ using UnityEngine;
 public class SuikaBall : MonoBehaviour{
     public int Level = 0;
     public GameObject Next;
+    
 
     private void OnCollisionEnter2D(Collision2D other){
         var otherSuika = other.gameObject.GetComponent<SuikaBall>();

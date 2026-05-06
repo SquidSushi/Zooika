@@ -7,7 +7,18 @@ public class SuikaBall : MonoBehaviour{
     public GameObject Next;
     public static UnityEvent<int, Vector3> Merge = new (); //Event, das gefeuert wird, wenn zwei Bälle sich vereinen. Parameter: int Level, Vector3 Position
     public static UnityEvent GameWin = new();
-    
+
+    private void Start(){
+        ResetController.GameReset.AddListener(OnReset);
+    }
+
+    private void OnReset(){
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy(){
+        ResetController.GameReset.RemoveListener(OnReset);
+    }
 
     private void OnCollisionEnter2D(Collision2D other){
         var otherSuika = other.gameObject.GetComponent<SuikaBall>();

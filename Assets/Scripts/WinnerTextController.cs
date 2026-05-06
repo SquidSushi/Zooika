@@ -10,6 +10,9 @@ public class WinnerTextController : MonoBehaviour{
         SuikaBall.GameWin.AddListener(OnGameWin);
     }
 
+    void OnGameReset(){
+        _textMeshPro.enabled = false;
+    }
     void OnGameWin(){
         Debug.Log("WinnerTextController hat GameWin empfangen");
         _textMeshPro.enabled = true;

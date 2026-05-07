@@ -8,6 +8,7 @@ public class WinnerTextController : MonoBehaviour{
         _textMeshPro = GetComponent<TextMeshProUGUI>();
         _textMeshPro.enabled = false;
         SuikaBall.GameWin.AddListener(OnGameWin);
+        ResetController.GameReset.AddListener(OnGameReset);
     }
 
     void OnGameReset(){
